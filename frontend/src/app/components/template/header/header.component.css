@@ -1,0 +1,22 @@
+.header {
+    display: flex; /*transforma a header em respansiva com flex box*/
+    align-items: center; /*alinha a header apartir do eixo x*/
+}
+
+.header a {
+    display: flex; /*transforma a tag a em respansiva*/
+    align-items: center; /*alinha a tag a apartir do eixo x*/
+    text-decoration: none; /*não decora o texto*/
+}
+
+.header .logo {
+    max-height: 32px; /*tamanho maximo do logo*/
+}
+
+.header .title-group {
+    padding-left: 25px; /*da distancia para a esquerda entre as tags spans*/
+}
+
+.header .title-group i {
+    padding-right: 5px; /*da distancia para a direita entre a tag span e a tag i*/
+}
