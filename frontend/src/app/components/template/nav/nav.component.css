@@ -1,0 +1,12 @@
+.sidenav {
+    background-color: #3F51B5; /*cor do fundo da navbar*/
+    width: 200px; /*largura da navbar*/
+}
+
+.sidenav a {
+    color: #FFF; /*cor da fonte*/
+}
+
+.sidenav i {
+    padding-right: 10px; /*expaçamento entre o icone e o titulo*/
+}
