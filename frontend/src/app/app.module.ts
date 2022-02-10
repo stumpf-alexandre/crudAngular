@@ -8,11 +8,13 @@ import { HeaderComponent } from './components/template/header/header.component';
 
 //importando o material para a toolbar
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { FooterComponent } from './components/template/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

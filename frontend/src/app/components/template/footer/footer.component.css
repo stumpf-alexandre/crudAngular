@@ -1,0 +1,11 @@
+.footer {
+    position: fixed; /*para fixar a posição da footer*/
+    bottom: 0; /*posiciona o footer no fim da pagina*/
+    display: flex; /*chama o flex box*/
+    justify-content: flex-end; /*alinha o texto no final da linha*/
+}
+
+.footer > span {
+    font-weight: 300; /*peso da fonte*/
+    font-size: 1,1rem; /*tamanho da fonte*/
+}
