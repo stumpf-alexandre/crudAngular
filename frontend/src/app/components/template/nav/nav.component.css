@@ -8,5 +8,11 @@
 }
 
 .sidenav i {
-    padding-right: 10px; /*expaçamento entre o icone e o titulo*/
+    padding-right: 10px; /*espaçamento entre o icone e o titulo*/
+}
+
+/*estilizando o conteudo*/
+.content {
+    padding: 16px;
+    background-color: #fff;
 }
