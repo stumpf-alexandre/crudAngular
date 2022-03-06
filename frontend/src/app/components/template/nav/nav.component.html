@@ -3,7 +3,7 @@
     <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64"> <!--fixedInViewport faz aparecer a navbar, fixedTopGap faz com que a navbar fique posicionada abaixo da header-->
         <mat-nav-list class="nav-list">
             <!--mat-list-item é uma propriedade que faz com que os elementos fiquem com o estilo adequado na navbar -->
-            <a mat-list-item>
+            <a mat-list-item routerLink="/"> <!-- routerLink faz a navegação entre as paginas-->
                 <!--cria um icone com o material design antes da frase inicio-->
                 <i class="material-icons">
                     home
@@ -12,7 +12,7 @@
             </a>
 
             <!--mat-list-item é uma propriedade que faz com que os elementos fiquem com o estilo adequado na navbar -->
-            <a mat-list-item>
+            <a mat-list-item routerLink="/products"> <!-- routerLink faz a navegação entre as paginas-->
                 <!--cria um icone com o material design antes da frase produtos-->
                 <i class="material-icons">
                     storefront
@@ -23,7 +23,7 @@
     </mat-sidenav>
 
     <mat-sidenav-content class="content">
-        <app-home></app-home>
+        <router-outlet></router-outlet>
     </mat-sidenav-content>
 
 </mat-sidenav-container>

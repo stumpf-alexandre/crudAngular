@@ -1,9 +1,10 @@
 <mat-toolbar class="footer">
     <span>
         Desenvolvido com
-        <i class="material-icons red v-middle">
+        <!--diretiva de atributo pode mexer tanto na parte de comportamento como na parte do estilo-->
+        <i class="material-icons v-middle" appRed> <!--colorindo um icone por uma diretiva-->
             favorite
         </i>
-        por <strong>Cod<span class="red">3</span>r</strong>
+        por <strong>Cod<span class="red">3</span>r</strong> <!--colorindo um icone por uma classe-->
     </span>
 </mat-toolbar>
